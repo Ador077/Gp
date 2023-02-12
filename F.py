@@ -320,14 +320,7 @@ def rcrack(uid,pwx,tl):
 
 
 
-    'sb': 'AvTmYzvHxvyFW6NqUI1M80ss',
-    'datr': 'AvTmYwk5TZy2cAOdSoFVnU_9',
-    'locale': 'en_US',
-    'vpd': 'v1%3B772x412x1.75',
-    'dpr': '1.75',
-    'wd': '412x772',
-    'fr': '0QEZmxR2vrmUVGYnI.AWVKwjOHZf-WBa7_ErCTkNi0944.Bj5vQC.vU.AAA.0.0.Bj6Eca.AWWzhh_lOt8',
-
+    
 
 headers = {
     'authority': 'mbasic.facebook.com',
