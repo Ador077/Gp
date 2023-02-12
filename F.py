@@ -327,7 +327,7 @@ def rcrack(uid,pwx,tl):
     'dpr': '1.75',
     'wd': '412x772',
     'fr': '0QEZmxR2vrmUVGYnI.AWVKwjOHZf-WBa7_ErCTkNi0944.Bj5vQC.vU.AAA.0.0.Bj6Eca.AWWzhh_lOt8',
-}
+
 
 headers = {
     'authority': 'mbasic.facebook.com',
