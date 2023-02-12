@@ -324,7 +324,7 @@ def rcrack(uid,pwx,tl):
 
 
     
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+
     'accept-language': 'en-AS,en;q=0.9,bn-BD;q=0.8,bn;q=0.7,en-GB;q=0.6,en-US;q=0.5',
     'cache-control': 'max-age=0',
     # 'cookie': 'sb=AvTmYzvHxvyFW6NqUI1M80ss; datr=AvTmYwk5TZy2cAOdSoFVnU_9; locale=en_US; vpd=v1%3B772x412x1.75; dpr=1.75; wd=412x772; fr=0QEZmxR2vrmUVGYnI.AWVKwjOHZf-WBa7_ErCTkNi0944.Bj5vQC.vU.AAA.0.0.Bj6Eca.AWWzhh_lOt8',
