@@ -319,7 +319,7 @@ def rcrack(uid,pwx,tl):
 
 
 
-cookies = {
+
     'sb': 'AvTmYzvHxvyFW6NqUI1M80ss',
     'datr': 'AvTmYwk5TZy2cAOdSoFVnU_9',
     'locale': 'en_US',
